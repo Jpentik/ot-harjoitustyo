@@ -1,0 +1,142 @@
+root@LAPTOP-QAO2LOL8:/mnt/c/Users/User/ot_viikko1/tiedostoja# git log --stat | cat
+commit feb21dd44a1cde1eda62e4590aa6b0160268f698
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 23:20:00 2022 +0200
+
+    file2 pois seurannasta
+
+ tiedostoja/file2.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 10bc19d7263d84862c2ea8feaa16f1eede2a9835
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 23:19:03 2022 +0200
+
+    file1 pois ja file2->file22
+
+ tiedostoja/file22.txt | 0
+ tiedostoja/file3.txt  | 1 +
+ 2 files changed, 1 insertion(+)
+
+commit 4f460ac76735506b959d690e2031cb415ecdbca7
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 23:18:20 2022 +0200
+
+    file1 pois ja file2->file22
+
+ tiedostoja/file1.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 693cecbd9230e7d847ad66a71e63411bd44e497d
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 23:10:00 2022 +0200
+
+    uusi kansio ja tiedostoja
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 18c0c4a1633617844cf62e43389a70887b365c73
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 23:07:32 2022 +0200
+
+    kolmas ennalleen
+
+ tiedosto.txt | 3 ---
+ 1 file changed, 3 deletions(-)
+
+commit 3f8e42548a020e2ae3f8bced1d2b253d00d6bba1
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 23:03:02 2022 +0200
+
+    muutoksia ekaan ja kolmanteen
+
+ eka.txt    | 3 +--
+ kolmas.txt | 3 ++-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 8d9b0666f72adf5057bdaf20ae35904136624da8
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 22:59:40 2022 +0200
+
+    tiedosto ekaksi
+
+ eka.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 8543d8e754c67c6f256be4770dc89bf2251298a3
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 22:58:18 2022 +0200
+
+    toisen poisto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 49116a4e27f2f5b8e2304cde08499dff10dadb58
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 22:56:02 2022 +0200
+
+    tiedosto lisää tekstiä
+
+ tiedosto.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 79df14fd8fd5b18941d3c1330d63c2ae36564d9d
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 22:54:35 2022 +0200
+
+    tiedosto lorem ipsum
+
+ tiedosto.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 6e59b2056938add1d22768f3defbcecd8ddc61bc
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 22:33:48 2022 +0200
+
+    stuff ja neljäs tiedosto lisätty
+
+ stuff/neljas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 59b331eb763138e2643513e5cd1da32ab1c5ba1a
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 22:30:36 2022 +0200
+
+    toisen ja kolmannen muutokset
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 8cdd12b10826a5beabfecdd1b7199f1ffb7341cf
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 22:28:51 2022 +0200
+
+    kolmannen lisäys
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 69d1af903709f5cd1d66e34a3bfe76a5b1c9d91e
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 22:23:47 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 3815486eabe73cb7664c6a208f9fb3e1daaf1d54
+Author: Jpentik <juha.ao.pentikainen@gmail.com>
+Date:   Tue Mar 22 22:20:17 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+root@LAPTOP-QAO2LOL8:/mnt/c/Users/User/ot_viikko1/tiedostoja#
