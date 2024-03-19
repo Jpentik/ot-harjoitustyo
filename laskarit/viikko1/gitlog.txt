@@ -112,3 +112,5 @@ Date:   Tue Mar 19 17:40:26 2024 +0200
  tiedosto.txt | 0
  1 file changed, 0 insertions(+), 0 deletions(-)
 jpentik@jpentik2600k:~/ot_viikko1/tiedostoja$ 
+
+Muutos 1
