@@ -1,4 +1,4 @@
-# Vaatimusmäärittely
+# Vaatimusmäärittely: python-ristinolla
 
 ## Sovelluksen tarkoitus
 

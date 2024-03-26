@@ -1,5 +1,5 @@
 # Ohjelmistotekniikka 2024
-## Harjoitustyö
+## Harjoitustyö: python-ristinolla
 - [Vaatimusmäärittely](./dokumentaatio/vaatimusmaarittely.md)
 - [Työaikakirjanpito](./dokumentaatio/tuntikirjanpito.md)
 ## Laskuharjoitukset
