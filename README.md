@@ -1,5 +1,8 @@
 # Ohjelmistotekniikka 2024
 ## Harjoitustyö
+- [Vaatimusmäärittely](./dokumentaatio/vaatimusmaarittely.md)
+- [Työaikakirjanpito](./dokumentaatio/tuntikirjanpito.md)
+## Laskuharjoitukset
 ### Viikko 1
 
 [komentorivi.txt](https://github.com/Jpentik/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
