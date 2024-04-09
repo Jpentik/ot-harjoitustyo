@@ -11,3 +11,7 @@
 
 ### Viikko 2
 [Screenshot%20from%202024-03-26%2021-49-19.png](https://github.com/Jpentik/ot-harjoitustyo/blob/master/laskarit/viikko2/Screenshot%20from%202024-03-26%2021-49-19.png)
+
+### Viikko 3
+[monopoli.md](https://github.com/Jpentik/ot-harjoitustyo/blob/master/laskarit/viikko3/monopoli.md)
+[Screenshot%20from%202024-04-09%2013-18-05.png](https://github.com/Jpentik/ot-harjoitustyo/blob/master/laskarit/viikko3/Screenshot%20from%202024-04-09%2013-18-05.png)
