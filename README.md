@@ -14,4 +14,5 @@
 
 ### Viikko 3
 [monopoli.md](https://github.com/Jpentik/ot-harjoitustyo/blob/master/laskarit/viikko3/monopoli.md)
+
 [Screenshot%20from%202024-04-09%2013-18-05.png](https://github.com/Jpentik/ot-harjoitustyo/blob/master/laskarit/viikko3/Screenshot%20from%202024-04-09%2013-18-05.png)
