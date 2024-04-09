@@ -6,5 +6,5 @@ class TestTictactoe(unittest.TestCase):
         self.board = Tictactoe.create_board(3)
         
     def test_default_board_initialization_ok(self):
-        self.tictactoe = self.board
-        self.assertEqual(self.tictactoe, [[1, 1, 1],[1, 1, 1],[1, 1, 1]])
+        self.testboard = self.board
+        self.assertEqual(self.testboard, [[1, 1, 1],[1, 1, 1],[1, 1, 1]])
