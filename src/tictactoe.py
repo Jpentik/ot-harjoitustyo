@@ -22,6 +22,10 @@ class Tictactoe:
         for _ in x:
             board.append(row)
         return board
-    # Main gameplay loop
-    def play_tictactoe(self):
-        print("Hello world")
+    # Returns True if a move is legal, otherwise returns False (TBD)
+    def move_advance(self, move_input):
+        print(move_input)
+        return True
+    # Returns True if the win codition is met, otherwise returns False (TBD)
+    def win_checker(self):
+        return False
