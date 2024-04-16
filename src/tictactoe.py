@@ -1,42 +1,27 @@
-# 3x3 game board initialized by default
-
 class Tictactoe:
-	# Initialization
-	def __init__(self):
-		self.board = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
-		print(self.board[0])
-		print(self.board[1])
-		print(self.board[2])
-	
+    def __init__(self):
+        self.board = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+        self.turns = 9
+    def check_board(self):
+        try:
+            board_input = int(self)
+        except ValueError:
+            print("Input is not an integer. Using default size 3.")
+            board_input = 3
+        if board_input < 1:
+            print("Input integer is negative. Using default size 3.")
+            board_input = 3
+        return board_input
 	# Creates a board of size n*n
-	def create_board(size):
-		row = []
-		x = range (size)
-		for n in x:
-			row.append(1)
-		#print(row)
-		board = []
-		for n in x:
-			board.append(row)
-		#print(board)
-		return board
-
-
-	# Winning row checker
-	def row_checker(board, wincount):
-		row_length = len(board[0])
-		print(row_length)
-		i = 0
-		j = 0
-		k = 0
-		while i < row_length - wincount +1:
-			print(i)
-			i += 1
-		return board
-
-board = Tictactoe.create_board(10)
-board = [[1, 1, 1, 1, 1],[4, 5, 6, 6, 6],[7, 8, 9, 9, 9]]
-luku = 0
-#print(board[luku][luku] == board[luku][luku])
-#print(board)
-Tictactoe.row_checker(board,1)
+    def create_board(self):
+        board = []
+        row = []
+        x = range (self)
+        for _ in x:
+            row.append(0)
+        for _ in x:
+            board.append(row)
+        return board
+    # Main gameplay loop
+    def play_tictactoe(self):
+        print("Hello world")
