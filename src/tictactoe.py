@@ -22,4 +22,21 @@ class Tictactoe:
 		return board
 
 
-Tictactoe()
+	# Winning row checker
+	def row_checker(board, wincount):
+		row_length = len(board[0])
+		print(row_length)
+		i = 0
+		j = 0
+		k = 0
+		while i < row_length - wincount +1:
+			print(i)
+			i += 1
+		return board
+
+board = Tictactoe.create_board(10)
+board = [[1, 1, 1, 1, 1],[4, 5, 6, 6, 6],[7, 8, 9, 9, 9]]
+luku = 0
+#print(board[luku][luku] == board[luku][luku])
+#print(board)
+Tictactoe.row_checker(board,1)
