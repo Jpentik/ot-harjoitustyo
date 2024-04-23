@@ -10,7 +10,7 @@ Esimerkkitilanne pelin kulusta:
 - check_board tarkistaa laudan sopivuuden ja palauttaa laudan koon (1)
 - create_board luo ja palauttaa laudan (listojen lista) "-" -merkein. Tässä tapauksessa vain ["-"]
 - win_checker tarkistaa, onko pelillä voittajaa (False)
-- X:n pelaaja pelaa siirroon koordinaattiin 0,0 ja move_advance hyväksyy siirron (True)
+- X:n pelaaja pelaa siirron koordinaattiin 0,0 ja move_advance hyväksyy siirron (True)
 - Siirto päivitetään peliin
 - win_checker tarkistaa, onko pelillä voittajaa (True)
 - Voittaja löytyy ja edellisen siirron ilmoitetaan voittaneen
