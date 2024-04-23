@@ -13,8 +13,8 @@ Aluksi sovelluksella on yksi käyttäjä, joka pystyy käyttämään kaikkia toi
 Peruskäyttöliittymä tulee olemaan tekstipohjainen. Sovellus aukeaa valikkoon, jossa voi tekstikomennoilla määritellä pelin tyypin ja aloittaa pelin. Pelinäkymä toimii vuoropohjaisesti siten, että käyttäjä valitsee, mihin ruutuun/koordinaattiin merkki pelataan (tehty).
 
 ## Sovelluksen perustoiminnot
-- Asetuksien muutto päävalikossa: pelilaudan koko (tehty) ja voittoon tarvittavien peräkkäisten merkkien määrä
-- Pelinäkymä: Pelin nykytilanteen näyttö (tehty, seuraavan hyväksyttävän siirron tekeminen pelitilaan (kesken), voittajan määrittely (kesken)
+- Asetuksien muutto päävalikossa: pelilaudan koko (tehty) ja voittoon tarvittavien peräkkäisten merkkien määrä (toistaiseksi koko rivi/sarake/diagonaali)
+- Pelinäkymä: Pelin nykytilanteen näyttö (tehty), seuraavan hyväksyttävän siirron tekeminen pelitilaan (tehty), voittajan määrittely (tehty)
 
 ## Jatkokehitysideoita
 Kun perustoiminnot on toteutettu, sovellukseen saatetaan lisätä mm. seuraavia toimintoja

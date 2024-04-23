@@ -8,7 +8,7 @@ class TestTictactoe(unittest.TestCase):
 
     def test_default_board_initialization_ok(self):
         self.testboard = self.board
-        self.assertEqual(self.testboard, [[0, 0, 0], [0, 0, 0], [0, 0, 0]])
+        self.assertEqual(self.testboard, [["-", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]])
 
     def test_launcher_accepts_positive_board_size(self):
         self.testboard = 4

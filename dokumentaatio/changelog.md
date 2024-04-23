@@ -1,4 +1,4 @@
-# Changelog: python-ristinolla
+# Changelog: OT-ristinolla
 
 ## Viikko 3
 - Linkit laskareihin poistettu
@@ -11,3 +11,9 @@
 - Uusia testejä: pelin generointi onnistuneesti, ja toiminta hylkäävissä tapauksissa
 - Pylint otettu käyttöön
 - Uusi pylint-tehtävä tasks-tiedostoon
+## Viikko 5
+- Harjoitustyön kehitystä jatkettu: voittotilan määritys valmiiksi ja erilleen luokaksi checker.
+- Pylint: Listojen listan unsubscriptable-object -ilmoitus ohitettu toistaiseksi. Vaihtoehtoja selvitetään.
+- Uusia testejä
+- Repositorion nimeksi päivitetty ot-ristinolla
+- Viikon 5 välivaiheesta 1. release.
