@@ -1,6 +1,6 @@
 class Checker:
     def __init__(self):
-        self.board = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+        None
     # Returns True if the win condition is met, otherwise returns False
     def win_checker(self, move_input):
         board = self
