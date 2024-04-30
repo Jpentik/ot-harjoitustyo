@@ -1,7 +1,17 @@
 from tictactoe import Tictactoe
-from checker import Checker
+from winchecker import WinChecker
 
 def main():
+    """Implements text based UI and keeps track of the game.
+
+    Attributes:
+        board_input: User input of board size n*n.
+        board_size: Board size n**2 after being checked
+        board: List of lists. Contains the state of the game board.
+        turn_count: The number of the current turn.
+        max_turns: Maximum number of turns before a draw
+        move_input: List of user input coordinates (row, column) for a move
+    """
     board_input = input("Enter board size n:")
     board_size = Tictactoe.check_board(board_input)
     board = Tictactoe.create_board(board_size)
@@ -12,7 +22,7 @@ def main():
         for _ in range(board_size):
             print(board[_])
         print("----------")
-        if Checker.win_checker(board, move_input) is True:
+        if WinChecker.win_checker(board, move_input) is True:
             print("The last move won the game")
             break
         if turn_count <= max_turns:

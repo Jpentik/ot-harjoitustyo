@@ -1,6 +1,6 @@
 import unittest
 from tictactoe import Tictactoe
-from checker import Checker
+from winchecker import Checker
 
 class TestTictactoe(unittest.TestCase):
     def setUp(self):

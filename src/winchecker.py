@@ -1,8 +1,14 @@
-class Checker:
-    def __init__(self):
-        None
-    # Returns True if the win condition is met, otherwise returns False
+class WinChecker:
+    """Class to check if the game has been won"""
     def win_checker(self, move_input):
+        """Checks if the row or column of the last move, or the diagonals determine a winner.
+
+        Args:
+            move_input: List of input coordinates (row, column).
+
+        Returns:
+            True if a winning row, column, or diagonal has been found, otherwise False
+        """
         board = self
         board_reversed = self[::-1]
         x = len(board)
@@ -17,7 +23,7 @@ class Checker:
             return False
         if move_input[0] > len(self) or move_input[1] > len(self):
             return False
-        # Row check
+
         for _ in range(0,x):
             if board[move_input[0]][_] == "O": # pylint: disable=unsubscriptable-object
                 i += 1
@@ -27,7 +33,7 @@ class Checker:
             return True
         i = int(0)
         j = int(0)
-        # Column check
+
         for _ in range(0,x):
             if board[_][move_input[1]] == "O": # pylint: disable=unsubscriptable-object
                 i += 1
@@ -35,7 +41,7 @@ class Checker:
                 j += 1
         if x in (i,j):
             return True
-        # Diagonal check
+
         i = int(0)
         j = int(0)
         for _ in range(0,x):
@@ -45,7 +51,7 @@ class Checker:
                 j += 1
         if x in (i,j):
             return True
-        # Second diagonal check
+
         i = int(0)
         j = int(0)
         for _ in range(0,x):
