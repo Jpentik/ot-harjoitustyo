@@ -17,3 +17,8 @@
 - Uusia testejä
 - Repositorion nimeksi päivitetty ot-ristinolla
 - Viikon 5 välivaiheesta 1. release.
+## Viikko 6
+- Docstring-kommentointi aloitettu
+- Voittotilan määrittävä luokka nimetty uudelleen (checker -> win_checker, tiedosto checker.py -> winchecker.py
+- Lisää testejä luokalle Tictactoe
+- Viikon 6. välivaiheesta 2. release

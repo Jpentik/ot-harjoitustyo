@@ -8,4 +8,5 @@ Tuntikirjanpito
 | 16.4. | 6    | Pääohjelman kehitystä, Pylint, uusia testejä ja tasks-toimintoja, arkkitehtuurikuvaus |
 | 22.4. | 6    | Pääohjelman kehitystä|
 | 23.4. | 6    | Pääohjelman kehitystä, uusia testejä, 1. release, dokumentaation päivitystä|
-|  yht  | 33    |
+| 30.4. | 6    | Pääohjelman kehitystä, docstring-dokumentaatio, uusia testejä, 2. release, käyttöohjeen ja arkkitehtuurikuvauksen päivitys|
+|  yht  | 39    |

@@ -1,7 +1,7 @@
 # Arkkitehtuurikuvaus
 
 ## Rakenne
-Viikon 5 vaiheen kuvaus ohjelman rakenteesta. launcher.py kysyy käyttäjän toimenpiteitä ja säilyttää varsinaista pelitilaa, tictactoe.py muokkaa launcher.py:n antamia syötteitä ja tekee niille tarkistuksia. checker.py ilmoittaa, kun voittava siirto on tehty.
+Viikon 6 vaiheen kuvaus ohjelman rakenteesta. launcher.py kysyy käyttäjän toimenpiteitä ja säilyttää varsinaista pelitilaa, tictactoe.py muokkaa launcher.py:n antamia syötteitä ja tekee niille tarkistuksia. winchecker.py ilmoittaa, kun voittava siirto on tehty.
 ![arkkitehtuuri](./kuvat/arkkitehtuuri.png)
 ## Sekvenssikaavio
 ![sekvenssikaavio](./kuvat/sekvenssikaavio.png)
