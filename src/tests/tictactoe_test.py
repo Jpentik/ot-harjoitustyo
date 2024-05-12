@@ -1,6 +1,7 @@
 import unittest
 from tictactoe import Tictactoe
 from winchecker import WinChecker
+from logger import Logger
 
 class TestTictactoe(unittest.TestCase):
     def setUp(self):
@@ -89,3 +90,7 @@ class TestTictactoe(unittest.TestCase):
     def test_checker_finds_winning_O_reverse_diagonal(self):
         self.testboard = ["-", "-", "O"], ["-", "O", "-"], ["O", "-", "-"]
         self.assertTrue(WinChecker.win_checker(self.testboard, [0,0]))
+
+    def test_logger_is_able_to_read_input_and_run_successfully(self):
+        self.testboard = ["-", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]
+        self.assertTrue(Logger.logger(self.testboard))
