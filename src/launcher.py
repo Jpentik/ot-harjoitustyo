@@ -43,10 +43,9 @@ def main():
             turn_count += 1
         else:
             print("Move was not accepted")
-    log_input = input("Press y if you want to save a log of the game")
+    log_input = input("Enter y to save a log of the game ")
     try:
         if log_input == str("y"):
-            print(board)
             Logger.logger(board)
     except ValueError:
         return

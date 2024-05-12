@@ -13,4 +13,4 @@ class Logger:
             game_log.write("Time of game " + str(datetime.datetime.now()) + "\n")
             for _ in range(0, int(len(self))):
                 game_log.write(str(self[_]) + "\n") # pylint: disable=unsubscriptable-object
-            print("Game logged")
+            return True
