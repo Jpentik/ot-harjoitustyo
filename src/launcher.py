@@ -1,5 +1,6 @@
 from tictactoe import Tictactoe
 from winchecker import WinChecker
+from logger import Logger
 
 def main():
     """Implements text based UI and keeps track of the game.
@@ -11,6 +12,7 @@ def main():
         turn_count: The number of the current turn.
         max_turns: Maximum number of turns before a draw
         move_input: List of user input coordinates (row, column) for a move
+        log_input: User input to decide if a log of the game will be saved, y if yes, otherwise no.
     """
     board_input = input("Enter board size n:")
     board_size = Tictactoe.check_board(board_input)
@@ -41,5 +43,12 @@ def main():
             turn_count += 1
         else:
             print("Move was not accepted")
+    log_input = input("Press y if you want to save a log of the game")
+    try:
+        if log_input == str("y"):
+            print(board)
+            Logger.logger(board)
+    except ValueError:
+        return
 if __name__ == "__main__":
     main()

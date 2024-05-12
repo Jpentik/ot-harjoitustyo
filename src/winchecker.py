@@ -10,7 +10,7 @@ class WinChecker:
             True if a winning row, column, or diagonal has been found, otherwise False
         """
         board = self
-        board_reversed = self[::-1]
+        board_reversed = self[::-1] # pylint: disable=unsubscriptable-object
         x = len(board)
         i = int(0)
         j = int(0)

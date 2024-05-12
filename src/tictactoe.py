@@ -1,12 +1,5 @@
 class Tictactoe:
     """Class that checks board input, creates an empty board and checks the validity of moves."""
-    def __init__(self):
-        """Class's constructor that creates an empty 3x3 board.
-
-        Args:
-            board: List of lists. An empty 3x3 board.
-        """
-        self.board = [["-", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]]
     def check_board(self):
         """Checks that input is a valid integer
 
@@ -18,8 +11,8 @@ class Tictactoe:
         except ValueError:
             print("Input is not an integer. Using default size 3.")
             board_input = 3
-        if board_input < 1:
-            print("Input integer is zero or negative. Using default size 3.")
+        if board_input < 3:
+            print("Input integer is less than 3 or negative. Using default size 3.")
             board_input = 3
         return board_input
 
