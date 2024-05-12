@@ -22,3 +22,7 @@
 - Voittotilan määrittävä luokka nimetty uudelleen (checker -> win_checker, tiedosto checker.py -> winchecker.py
 - Lisää testejä luokalle Tictactoe
 - Viikon 6. välivaiheesta 2. release
+## Viikko 7
+- Lisätty pelin lopputilan tallentava luokka Logger tiedostoon logger.py
+- Testit lisätty luokalle Logger
+- Kurssin loppupalautus ja -release viikko 7 -tagilla.
