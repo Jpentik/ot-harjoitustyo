@@ -9,4 +9,6 @@ Tuntikirjanpito
 | 22.4. | 6    | Pääohjelman kehitystä|
 | 23.4. | 6    | Pääohjelman kehitystä, uusia testejä, 1. release, dokumentaation päivitystä|
 | 30.4. | 6    | Pääohjelman kehitystä, docstring-dokumentaatio, uusia testejä, 2. release, käyttöohjeen ja arkkitehtuurikuvauksen päivitys|
-|  yht  | 39    |
+| 11.5. | 2    | Pääohjelman kehitystä
+| 12.4. | 5    | Testit uudelle logger-luokalle, testidokumentti, käyttöohjeen, arkkitehtuurikuvauksen ja vaatimusmäärittelyn lopulliset päivitykset|
+|  yht  | 46    |
