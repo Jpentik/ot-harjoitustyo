@@ -1,8 +1,8 @@
-# Vaatimusmäärittely: python-ristinolla
+# Vaatimusmäärittely: OT-ristinolla
 
 ## Sovelluksen tarkoitus
 
-Sovelluksen avulla käyttäjä voi pelata ristinolla-tyyppisiä pelejä.
+Sovelluksen avulla käyttäjä voi pelata ristinolla-tyyppisiä pelejä. Ohjelma on toteutettu täysin Pythonilla.
 
 ## Käyttäjät
 
@@ -14,12 +14,11 @@ Peruskäyttöliittymä tulee olemaan tekstipohjainen. Sovellus aukeaa valikkoon,
 
 ## Sovelluksen perustoiminnot
 - Asetuksien muutto päävalikossa: pelilaudan koko (tehty) ja voittoon tarvittavien peräkkäisten merkkien määrä (toistaiseksi koko rivi/sarake/diagonaali)
-- Pelinäkymä: Pelin nykytilanteen näyttö (tehty), seuraavan hyväksyttävän siirron tekeminen pelitilaan (tehty), voittajan määrittely (tehty)
+- Pelinäkymä: Pelin nykytilanteen näyttö (tehty), seuraavan hyväksyttävän siirron tekeminen pelitilaan (tehty), voittajan määrittely (tehty), loki pelatuista peleistä (tehty)
 
 ## Jatkokehitysideoita
 Kun perustoiminnot on toteutettu, sovellukseen saatetaan lisätä mm. seuraavia toimintoja
 - Kahden pelaajan tila
 - Pelaajanimen/-nimien tallennus
-- Loki pelatuista peleistä
 - Tietokonetta vastaan pelaaminen
 - Graafinen käyttöliittymä
